@@ -1,0 +1,7 @@
+languageCode = "cz"
+title = "Web od A do Z, České Budějovice, 2019"
+theme = "czechitas"
+baseURL = "https://czechitaswebcb2019.alesruzicka.eu"
+
+[taxonomies]
+  tag = "tags"
