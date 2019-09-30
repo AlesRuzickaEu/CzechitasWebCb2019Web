@@ -1,49 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="slides.dist.js" defer></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<code class="inverted standout">
 
-    <link rel="stylesheet" href="slides.css">
-
-    <style>
-    img {
-        height: 70vh;
-    }
-    </style>
-</head>
-
-<body>
-
-    <section class="inverted">
-        <code>
 # Lekce 8 - Úvod do JavaScriptu
 
-        </code>
-    </section>
 
-    <section class="inverted">
-        <code>
-# Hello World day - 21.11.2018!
+</code>
 
-        </code>
-    </section>
+<code class="inverted">
 
-    <section class="">
-        <code>
+# Hello World day - 21.11.
+
+
+</code>
+
+<code class="">
+
 # Co je JavaScript?
 
 * Programovací jazyk (na rozdíl od HTML, CSS, stejně jako PHP)
 * Rozumí mu prohlížeče (stejně jako HTML, CSS, na rozdíl od PHP)
 * Je nejsilnějším a nejsložitějším nástrojem webu
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # V prohlížeči slouží k
 
 * reakci na události
@@ -51,22 +38,22 @@
 * komunikaci se serverem (odesílání a načítání dat)
 * zpracování dat, validace dat, efekty
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Kde jinde jej lze ještě použít?
 
 * Všude
 * Software jí svět
 * JavaScript jí software
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Kde jinde jej lze ještě použít?
 
 * Příkazová řádka (node.js)
@@ -77,11 +64,11 @@
 * Vizualizace dat (d3.js)
 * ...
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Výhody JS
 
 * Šíře využití (nejširší na světě)
@@ -90,11 +77,11 @@
 * Výkon
 * Je good-enough - ne nejlepší, ale stačí
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Nevýhody JS
 
 * Špatná práce s kódem u velkých projektů
@@ -104,11 +91,11 @@
 
 * jsou, ale nad rámec dneška
 
-        </code>
-    </section>
 
-    <section class="inverted">
-        <code>
+</code>
+
+<code class="inverted">
+
 # Pojmy - nudná/nutná teorie
 
 * Hodnota
@@ -119,11 +106,11 @@
 * Opakování
 * Událost
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Hodnota - typy
 
 * Číslo - number
@@ -134,62 +121,62 @@
 * Nic - undefined
 * Série příkazů - funkce (viz dále)
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Proměnná
 
 * Pojmenovaný zástupce za hodnotu
 * Může držet jakýkoli typ
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Výraz
 
 * Vytváří hodnotu nebo provádí akci
 * tj. volání funkce
 * speciální funkce (+, - , &&, || ...)
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Funkce
 
 * Deklarace
 * Volání
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Větvení
 
 * Podmínka
 * Chci něco udělat jen někdy
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Opakování
 
 * Cyklus
 * Chci něco udělat vícekrát
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Událost
 
 * Něco se stalo
@@ -200,30 +187,30 @@
   * Změna velikosti viewportu
 * Spustí se funkce, pokud je zaregistrovaná
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # To stačí
 
 * Složité je, jak to aplikovat na reálný problém
 
-        </code>
-    </section>
-   
-    <section class="">
-        <code>
+
+</code>
+
+<code class="">
+
 # Prohlížeč
 
 * Umí provést kód
 * Nabízí API - funkce jak s ním komunikovat
 * jQuery - knihovna, která nám zjednoduší API prohlížeče
-        </code>
-    </section>
 
-    <section class="inverted">
-        <code>
+</code>
+
+<code class="inverted">
+
 # Prakticky
 
 * Vložíme JavaScript do HTML
@@ -233,14 +220,14 @@
   * `alert('Hello World')`
 * Provedeme kód v konzoli
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Jak se to píše
 
-* Vyvoříme hodnotu
+* Vytvoříme hodnotu
   * číslo - `1`
   * string - `'text'`
   * bool - `true`
@@ -248,20 +235,20 @@
   * objekt - `{jmeno: 'Aleš'}`
   * nic - `undefined`
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+        </code>
+
+        <code class="">
+
 # Uděláme proměnnou
 
 * `var mojeJmeno = 'Aleš'`
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Výraz - složitější příklad
 
 ```
@@ -269,11 +256,11 @@ var mujVek = Number(prompt('Kolik ti je let?'))
 var letOdPlnoletosti = mujVek - 18
 alert('Jsi plnoletý již ' + letOdPlnoletosti + ' let')
 ```
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Funkce - Deklarace (lze bez jména)
 ```
 function mojeFunkce(mujParameter) {
@@ -281,51 +268,51 @@ function mojeFunkce(mujParameter) {
     return 'hodnota kterou vracim'
 }
 ```
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Funkce - Deklarace prakticky
 ```
 function secti(a, b) {
     return a + b
 }
 ```
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Funkce - Volání
 ```
 var soucet = secti(1, 2)
 alert(soucet)
 ```
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Větvení, opakování
 
 Chytře se mu zkusíme vyhnout
-        </code>
-    </section>
 
-    
-    <section class="">
-        <code>
+</code>
+
+
+<code class="">
+
 # Pracujeme s DOM - Document Object Model pomocí [jQuery](https://jquery.com/)
 
 * Vložíme jQuery na stránku před náš JavaScript
 * `<script src="https://code.jquery.com/jquery-3.3.1.js"></script>`
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Najdeme si elementy, se kterými chceme pracovat
 
 ```
@@ -334,11 +321,11 @@ $('css selektor')
 var nadpis = $('h1')
 ```
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Měníme obsah elementu
 
 ```
@@ -347,11 +334,11 @@ nadpis.text('Změněný text')
 nadpis.html('Změněný <strong>text</strong>')
 ```
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Reagujeme na události
 
 ```
@@ -361,11 +348,11 @@ nadpis.on('click', function() {
 })
 ```
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Měníme vzhled elementu
 
 ```
@@ -376,22 +363,13 @@ nadpis.css('display', 'none')
 nadpis.css({display: 'bool', color: 'red'})
 ```
 
-        </code>
-    </section>
 
-    <section class="">
-        <code>
+</code>
+
+<code class="">
+
 # Děláme skrývací menu
 
 
-        </code>
-    </section>
 
-    <script src="marked.min.js"></script>
-    <script src="slides.js"></script>    
-
-</body>
-
-</html>
-
-
+</code>
