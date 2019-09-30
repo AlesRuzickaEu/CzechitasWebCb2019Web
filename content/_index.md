@@ -8,8 +8,8 @@ Kurz Web od A do Z, České Budějovice, 2019 je veden organizací Czechitas v �
 
 # Kdy
 
-každé pondělí, 30 září - 12 prosince 2018  
-18:00 - 20:00 hod
+každé pondělí, 30 září - ? prosince 2019
+17:30 - 20:00 hod
 
 # Kde
 
@@ -19,12 +19,12 @@ Lipová 1789 / 9
 
 # Lektoři
 
-- Aleš Růžička
-- Jan Svěrák
+- Aleš
+- Honza
 
 # Kouč
 
-- Jakub Jetleb
+- Jakub
 
 # Lekce
 
@@ -34,8 +34,4 @@ Lipová 1789 / 9
 
 - [Tento web](https://czechitaswebcb2019.alesruzicka.eu/)
 - [Facebook Skupina](https://www.facebook.com/groups/520434798733390/)
-
-# Zdrojové kódy
-
-- [Tento web](https://github.com/AlesRuzickaEu/CzechitasWebCb2019Web)
 
