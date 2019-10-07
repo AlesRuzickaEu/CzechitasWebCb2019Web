@@ -10,4 +10,7 @@ tags: [html, css, git, github]
 
 ## Domácí úkol
 
-TBA
+* Upravte svoji vizitku tak, aby používala alespoň dva styly
+    * pro nadpis
+    * pro odstavec
+* Oboum nastavte alespoň dvě vlastnosti
