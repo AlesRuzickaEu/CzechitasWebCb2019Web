@@ -12,4 +12,4 @@ tags: [html, css, git, github]
 * Upravte svoji vizitku tak, aby používala alespoň dva styly
     * pro nadpis
     * pro odstavec
-* Oboum nastavte alespoň dvě vlastnosti
+* Oběma nastavte alespoň dvě vlastnosti
