@@ -1,7 +1,7 @@
 ---
 title: "Lekce 2 - Úvod do CSS a Github"
 date: "2019-10-07"
-publishDate: "2019-01-1"
+publishDate: "2019-01-01"
 tags: [html, css, git, github]
 ---
 
