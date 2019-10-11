@@ -30,6 +30,7 @@ Lipová 1789 / 9
 
 - [Lekce 1 - Úvod do HTML](/lekce/lekce1/)
 - [Lekce 2 - Úvod do CSS a Github](/lekce/lekce2/)
+- [Lekce 2 - Css selektory, box model](/lekce/lekce3/)
 
 # Komunikace
 

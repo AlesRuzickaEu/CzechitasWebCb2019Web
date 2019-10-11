@@ -1,5 +1,5 @@
 ---
-title: "Lekce 3 - Box model"
+title: "Lekce 3 - Css selektory, box model"
 date: "2019-10-14"
 publishDate: "2019-01-01"
 tags: [html, css]
