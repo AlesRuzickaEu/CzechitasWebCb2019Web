@@ -13,7 +13,7 @@
 
 <!-- TODO: probrat selektory od zacatku -->
 
-<code class="compact">
+<code class="inverted">
 
 # CSS Selektory
 
@@ -21,22 +21,95 @@
 </code>
 
 <code>
+# Pomocí typu tagu
 
-# Pseudotřídy 
+```
+p { }
+```
+
+</code>
+
+<code>
+# Pomocí třídy
+
+```
+<p class="trida"></p>
+<p class="trida druha-trida"></p>
+
+.trida { }
+```
+</code>
+
+<code>
+# Více tříd
+
+```
+<p class="trida druha-trida"></p>
+
+.trida { color: red; }
+.druha-trida { background-color: blue; }
+```
+</code>
+
+<code>
+# Pomocí id
+
+```
+<p id="trida"></p>
+
+#id { }
+```
+</code>
+
+<code class="inverted">
+# Specificita vs košile bližší než kabát
+
+```
+<div class="a"><div class="b">text</div><div>
+
+.a { color: red; }
+.b { color: blue; }
+```
+</code>
+
+<code>
+# Specificita 
+
++1 - typ tagu
++2 - třída
++3 - id
+</code>
+
+<code class="inverted">DEMO</code>
+
+<code class="inverted">
+# Kombinované selektory 
+
+```
+.a .b {} /* tag s třídou b vnořený v tagu s třídou a */
+.a, .b {} /* tag s třídou a nebo b */
+.a > .b {} /* tag s třídou b, přímý potomek tagu s třídou a */
+```
+</code>
+
+<code>
+# Pseudotřídy - Umístění
 
 * `p:first-child{}`, `p:last-child{}`
 * `p:first-of-type{}`, `p:last-of-type{}`
 * `p:nth-child(n){}`
+</code>
+
+<code>
+# Pseudotřídy - Stav
+
 * `a:link{}`, `a:visited{}`
 * `a:hover{}`, `a:active{}`, `a:focus{}`
-
-
 </code>
 
 <code class="inverted">DEMO</code>
 
 <code class="compact">
-
 # Box Model
 
 Opakování
@@ -51,7 +124,6 @@ Opakování
 </code>
 
 <code class="">
-
 # Box model obrázek
 
 ![](boxmodel.png)
@@ -68,7 +140,6 @@ Opakování
   * `width: 100px;`
 * px vs % (pozor na výšku)
 * `min-height`, `max-height`
-
 
 </code>
 
@@ -118,7 +189,6 @@ Opakování
 
 * `padding: 1rem;`
 
-
 </code>
 
 <code class="inverted">DEMO</code>
@@ -143,7 +213,6 @@ Opakování
 * `div {display: inline;}`
 * `li {display: inline-block;}`
 
-
 </code>
 
 <code class="inverted">DEMO</code>
@@ -151,7 +220,6 @@ Opakování
 <code>
 
 # Rozdělení na více stránek
-
 
 </code>
 
@@ -168,10 +236,9 @@ Opakování
 
 # Děkuji za pozornost, domácí úkol
 
-* Rozdělte prezentaci na dvě stránky
-* Udělejte horizontální menu mezi stránkami
-* Vylepšete vizuálně prezentaci
-    * přidejte rámečky
-    * omezte maximální šířku stránky aby text nebyl od krajů do krajů
+* Vaši vizitku rozdělte na sekce pomocí `div` tagů s různými `class` attributy
+* Použijte selektory pomocí tříd k nastavení jejich velikosti, marginu a padding a rámečků
+* Zkuste to tak, aby výsledek byl vizuálně hezčí
+* Pokud chcete dát více elementů (ie. divů) vedle sebe, zkuste jim nastavit `display: inline-block;`
 
 </code>
