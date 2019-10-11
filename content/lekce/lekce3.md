@@ -1,6 +1,6 @@
 ---
 title: "Lekce 3 - Box model"
-date: "2018-10-17"
+date: "2019-10-14"
 publishDate: "2019-01-01"
 tags: [html, css]
 ---
