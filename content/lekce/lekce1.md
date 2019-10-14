@@ -5,8 +5,8 @@ publishDate: "2019-01-01"
 tags: [html]
 ---
 
-* [Prezentace](/prezentace/prezentace1.html)
-* [Videozáznam](https://youtu.be/XtIeS5Ry3JY)
+- [Prezentace](/prezentace/prezentace1.html)
+- [Videozáznam](https://youtu.be/XtIeS5Ry3JY)
 
 ## Domácí úkol
 

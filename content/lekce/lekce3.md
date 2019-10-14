@@ -7,11 +7,11 @@ tags: [html, css]
 
 - [Prezentace Github](/prezentace/prezentace2_github.html)
 - [Prezentace](/prezentace/prezentace3.html)
-- [Materiály](/materialy/lekce3/lekce3.zip)
+- [Materiály na hodinu](/materialy/lekce3/lekce3.zip)
+- [Videozáznam](https://youtu.be/SRYdKVkZOfI)
 
 ## Domácí úkol
 
 * Vaši vizitku rozdělte na sekce pomocí `div` tagů s různými `class` attributy
-* Použijte selektory pomocí tříd k nastavení jejich velikosti, marginu a padding a rámečků
+* Použijte selektory pomocí tříd k nastavení různých vlastností stejným elementům
 * Zkuste to tak, aby výsledek byl vizuálně hezčí
-* Pokud chcete dát více elementů (ie. divů) vedle sebe, zkuste jim nastavit `display: inline-block;`
