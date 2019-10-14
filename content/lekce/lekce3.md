@@ -5,6 +5,7 @@ publishDate: "2019-01-01"
 tags: [html, css]
 ---
 
+- [Prezentace Github](/prezentace/prezentace2_github.html)
 - [Prezentace](/prezentace/prezentace3.html)
 - [Materiály](/materialy/lekce3/lekce3.zip)
 
