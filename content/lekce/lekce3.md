@@ -6,6 +6,7 @@ tags: [html, css]
 ---
 
 - [Prezentace](/prezentace/prezentace3.html)
+- [Materiály](/materialy/lekce3/lekce3.zip)
 
 ## Domácí úkol
 
