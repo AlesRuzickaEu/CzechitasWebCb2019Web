@@ -3,3 +3,4 @@
 * Prvni lekce moc kratka, je treba rozsirit o listy, tabulky, vic o meta tazich, favicon
 * V druhe lekci nelze stihnout Github
 * Registraci na github dát za domácí úkol
+* Odstranic ukoly z prezentaci, stejne se to vzdycky meni

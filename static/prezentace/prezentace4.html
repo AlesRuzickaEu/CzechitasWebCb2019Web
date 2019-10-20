@@ -11,14 +11,137 @@
 
 </code>
 
-<code class="">
+<code class="compact">
+# Box Model
 
-# Upřesnění
+Opakování
 
-* Hodnot někdy můžou být záporné (ie. margin, ale ne padding etc.)
-
+* Blokové elementy
+    * `h1`, `p`, `div`, `section`, ...
+* Řádkové elementy
+    * `span`, `a`, `img`, ...
+* Řádkově blokové - hybrid
+    * `button`, ...
 
 </code>
+
+<code class="">
+# Box model obrázek
+
+![](boxmodel.png)
+
+</code>
+
+<code class="">
+
+# Vlastnosti bloku - velikost
+
+* Výška
+    * `height: 100px;`
+* Šířka
+    * `width: 100px;`
+* px vs % (pozor na výšku)
+* `min-height`, `max-height`
+
+</code>
+
+<code class="">
+
+# Vlastnosti bloku - typ velikost
+
+* Nejlepší
+    * `box-sizing: border-box;`
+* Nastavit všemu
+    * `* {box-sizing: border-box;}`
+
+</code>
+
+<code class="inverted">DEMO</code>
+
+<code class="">
+
+# Vlastnosti bloku - ohraničení (border)
+
+* Velikost, barva, typ
+    * `border-width: 1px;`
+    * `border-color: black;`
+    * `border-style: solid;`
+    * `border-radius: 15px`
+
+</code>
+
+<code class="">
+
+# Vlastnosti bloku - ohraničení (border), rozpis
+
+* Shorthand - zkratka
+    * `width: 1px black solid;`
+* Detail
+    * `border-top-width: 0;`
+* Souhrn velikostí
+    * `border-width: top right bottom left;`
+
+</code>
+
+<code class="">
+
+# Vlastnosti bloku - zaoblení
+
+* `border-radius: 15px;`
+* `border-radius: 50%;`
+
+</code>
+
+<code class="inverted">DEMO</code>
+
+<code>
+
+# Vlastnosti vnitřní výplň - padding
+
+* `padding: 1rem;`
+
+</code>
+
+<code class="inverted">DEMO</code>
+
+<code>
+
+# Vlastnosti vnější odsazení - margin
+
+* `margin: 1rem;`
+* `margin: 1rem auto;`
+* Slučuje se
+* Smí být záporný
+
+</code>
+
+<code class="inverted">DEMO</code>
+
+<code>
+
+# Nastavení typu zobrazení
+
+* `a {display: block;}`
+* `div {display: inline;}`
+* `li {display: inline-block;}`
+
+</code>
+
+<code class="inverted">DEMO</code>
+
+<code>
+
+# DevTools - demo
+
+</code>
+
+<code>
+
+# Rozdělení na více stránek
+
+</code>
+
+<code class="inverted">DEMO</code>
 
 <code>
 
@@ -34,18 +157,6 @@
 
 * css: `nav li {display: inline-block;}`
 
-
-</code>
-
-<code>
-
-# Float
-
-* `.prvni-sekce { float: left; width: 30%;}`
-* druhy blok: `float: right`, nebo `margin-left: 30%;`
-* treti blok: `.cistic { clear:both;}`, `::after`
-
-
 </code>
 
 <code class="inverted">
@@ -57,7 +168,6 @@
 * `position: fixed;` - fixní pozice na stránce
 * `position: relative;` - posun vůči původní, ale *absolute se vztahuje k nejbližšímu nadřízenému relative*
 * `top left right bottom` - umístění
-
 
 </code>
 
@@ -77,7 +187,6 @@
 
 * `position: fixed;` - fixní pozice na obrazovce
 * pozor na mobily
-
 
 </code>
 
@@ -103,8 +212,11 @@
 
 <code>
 
-# Rozdělení na více stránek
+# Float
 
+* `.prvni-sekce { float: left; width: 30%;}`
+* druhy blok: `float: right`, nebo `margin-left: 30%;`
+* treti blok: `.cistic { clear:both;}`, `::after`
 
 </code>
 
@@ -112,8 +224,4 @@
 
 # Domácí úkol
 
-
 </code>
-
-
-
