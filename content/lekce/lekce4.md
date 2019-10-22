@@ -8,6 +8,7 @@ tags: [html, css, layout]
 - [Materiály](/materialy/lekce4/lekce4.zip)
 - [Prezentace](/prezentace/prezentace4.html)
 - [4 minute design](https://jgthms.com/web-design-in-4-minutes)
+- [Videozáznam](https://youtu.be/v0jcmvjy9AE)
 
 ## Domácí úkol
 
