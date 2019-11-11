@@ -32,6 +32,8 @@ Lipová 1789 / 9
 - [Lekce 2 - Úvod do CSS a Github](/lekce/lekce2/)
 - [Lekce 3 - Css selektory, box model](/lekce/lekce3/)
 - [Lekce 4 - Pozicování a layout](/lekce/lekce4/)
+- [Lekce 5 - Flexbox 1. část](/lekce/lekce5/)
+- [Lekce 6 - Layout a responzivita](/lekce/lekce6/)
 
 # Komunikace
 
