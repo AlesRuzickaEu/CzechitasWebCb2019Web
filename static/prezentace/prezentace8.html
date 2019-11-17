@@ -24,8 +24,7 @@
 
 * Programovací jazyk (na rozdíl od HTML, CSS, stejně jako PHP)
 * Rozumí mu prohlížeče (stejně jako HTML, CSS, na rozdíl od PHP)
-* Je nejsilnějším a nejsložitějším nástrojem webu
-
+* Je nejsilnějším, ale nejsložitějším nástrojem webu
 
 </code>
 
@@ -38,7 +37,6 @@
 * komunikaci se serverem (odesílání a načítání dat)
 * zpracování dat, validace dat, efekty
 
-
 </code>
 
 <code class="">
@@ -48,7 +46,6 @@
 * Všude
 * Software jí svět
 * JavaScript jí software
-
 
 </code>
 
@@ -64,7 +61,6 @@
 * Vizualizace dat (d3.js)
 * ...
 
-
 </code>
 
 <code class="">
@@ -74,9 +70,8 @@
 * Šíře využití (nejširší na světě)
 * Popularita = komunita - nejpopulárnější jazyk světa a roste
 * Snadný začátek
-* Výkon
+* Dobrý výkon
 * Je good-enough - ne nejlepší, ale stačí
-
 
 </code>
 
@@ -187,7 +182,6 @@
   * Změna velikosti viewportu
 * Spustí se funkce, pokud je zaregistrovaná
 
-
 </code>
 
 <code class="">
@@ -195,7 +189,6 @@
 # To stačí
 
 * Složité je, jak to aplikovat na reálný problém
-
 
 </code>
 
@@ -205,7 +198,6 @@
 
 * Umí provést kód
 * Nabízí API - funkce jak s ním komunikovat
-* jQuery - knihovna, která nám zjednoduší API prohlížeče
 
 </code>
 
@@ -215,11 +207,10 @@
 
 * Vložíme JavaScript do HTML
   * `<script></script>`
-  * na konec stránky, před `/body`
+  * nejlépe na konec stránky, před `/body`
 * Provedeme kód ve stránce
   * `alert('Hello World')`
 * Provedeme kód v konzoli
-
 
 </code>
 
@@ -235,10 +226,9 @@
   * objekt - `{jmeno: 'Aleš'}`
   * nic - `undefined`
 
+</code>
 
-        </code>
-
-        <code class="">
+<code class="">
 
 # Uděláme proměnnou
 
@@ -303,24 +293,19 @@ Chytře se mu zkusíme vyhnout
 
 <code class="">
 
-# Pracujeme s DOM - Document Object Model pomocí [jQuery](https://jquery.com/)
-
-* Vložíme jQuery na stránku před náš JavaScript
-* `<script src="https://code.jquery.com/jquery-3.3.1.js"></script>`
-
+# Pracujeme s DOM - Document Object Model
 
 </code>
 
 <code class="">
 
-# Najdeme si elementy, se kterými chceme pracovat
+# Najdeme si element, se kterými chceme pracovat
 
 ```
-$('css selektor')
+document.querySelector('css selektor')
 
-var nadpis = $('h1')
+var nadpis = document.querySelector('h1')
 ```
-
 
 </code>
 
@@ -329,11 +314,10 @@ var nadpis = $('h1')
 # Měníme obsah elementu
 
 ```
-var nadpis = $('h1')
-nadpis.text('Změněný text')
-nadpis.html('Změněný <strong>text</strong>')
+var nadpis = document.querySelector('h1')
+nadpis.innerText = 'Změněný text'
+nadpis.innerHtml = 'Změněný <strong>text</strong>'
 ```
-
 
 </code>
 
@@ -342,9 +326,9 @@ nadpis.html('Změněný <strong>text</strong>')
 # Reagujeme na události
 
 ```
-var nadpis = $('h1')
-nadpis.on('click', function() {
-    nadpis.text('Změněný text')
+var nadpis = document.querySelector('h1')
+nadpis.addEventListener('click', function() {
+    nadpis.innerText = 'Změněný text'
 })
 ```
 
@@ -356,20 +340,17 @@ nadpis.on('click', function() {
 # Měníme vzhled elementu
 
 ```
-nadpis.addClass('moje-trida')
-nadpis.removeClass('moje-trida')
-nadpis.toggleClass('moje-trida')
-nadpis.css('display', 'none')
-nadpis.css({display: 'bool', color: 'red'})
+nadpis.classList.add('moje-trida')
+nadpis.classList.remove('moje-trida')
+nadpis.classList.toggle('moje-trida')
+nadpis.style.display = 'none'
+nadpis.style.color = 'red'
 ```
-
 
 </code>
 
 <code class="">
 
 # Děláme skrývací menu
-
-
 
 </code>
