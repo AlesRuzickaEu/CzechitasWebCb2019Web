@@ -62,7 +62,7 @@
 
                 // menu.classList.toggle("")
 
-                if (menu.style.display !== "block") {
+                if (window.getComputedStyle(menu).display === "none") {
                     menu.style.display = "block"
                 }
                 else {
