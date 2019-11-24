@@ -54,8 +54,34 @@
     <script>
         (function () {
             // Zde budeme psát kód
+            var menuButton = document.querySelector("#navbarToggler")
+            var menu = document.querySelector("#navbar")
+
+            menuButton.addEventListener("click", function (e) {
+                console.log("Clicked")
+
+                // menu.classList.toggle("")
+
+                if (menu.style.display !== "block") {
+                    menu.style.display = "block"
+                }
+                else {
+                    menu.style.display = "none"
+                }
 
 
+                e.stopPropagation()
+            })
+
+            document.addEventListener("click", function (e) {
+                menu.style.display = "none"
+            })
+
+            document.addEventListener("keydown", function (e) {
+                if (e.charCode === 0) {
+                    menu.style.display = "none"
+                }
+            })
 
         })()
     </script>

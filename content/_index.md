@@ -8,7 +8,7 @@ Kurz Web od A do Z, České Budějovice, 2019 je veden organizací Czechitas v �
 
 # Kdy
 
-každé pondělí, 30 září - ? prosince 2019
+každé pondělí, 30. září - 9. prosince 2019
 17:30 - 20:00 hod
 
 # Kde
@@ -35,6 +35,7 @@ Lipová 1789 / 9
 - [Lekce 5 - Flexbox 1. část](/lekce/lekce5/)
 - [Lekce 6 - Layout a responzivita](/lekce/lekce6/)
 - [Lekce 7 - CSS animace a transitions](/lekce/lekce7/)
+- [Lekce 8 - JavaScript úvod](/lekce/lekce8/)
 
 # Komunikace
 
