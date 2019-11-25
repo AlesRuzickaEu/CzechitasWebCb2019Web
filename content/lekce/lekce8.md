@@ -1,6 +1,6 @@
 ---
 title: "Lekce 8 - Úvod do JavaScriptu"
-date: "2018-11-21"
+date: "2019-11-25"
 publishDate: "2019-01-01"
 tags: [javascript]
 ---
