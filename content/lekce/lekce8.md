@@ -7,12 +7,11 @@ tags: [javascript]
 
 - [Materiály](/materialy/lekce8/js.html)
 - [Prezentace](/prezentace/prezentace8.html)
+- [Soubory z hodiny](/materialy/lekce8/lekce8-z-hodiny.zip)
+- [Videozáznam](https://youtu.be/IHi5BaVyEk4)
 
-# Domácí úkol.
+# Domácí úkol
 
-* Použijte [tyto materiály jako startovací bod](/materialy/lekce8/lekce8_du.zip)
-* Umístěte obě auta pod sebe a na kliknutí na auto jej posuňte doprava
-* Auto 1 se posune o 200px, auto 2 o 300px doprava
-* Použijte znalost CSS Transitions aby byl posun aut plynulý
-
-* Bonus - posunujte auta na každé kliknutí o dalších 200/300 px
+* Udělejte na superappce responsivní schovávací menu
+  * Když se obrazovka zmenší tak, že se menu nevejde, zmizí a místo něho se objeví tlačítko
+  * Když na tlačítko klikneme, znovu se objeví, ale tentokrát jako absolutně pozicované a odkazy pod sebou
